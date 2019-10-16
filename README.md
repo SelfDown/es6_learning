@@ -10,3 +10,9 @@ Math.max(...[22, 2, 222])
 Math.max(22, 2, 222);
 a={"test":1,"test":"2"}
 相当于 python **a,将对象打散
+
+
+{ a , b , c }=this
+将this.a 复制给a
+相当于
+let a = this["a"]
